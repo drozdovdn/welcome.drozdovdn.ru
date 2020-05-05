@@ -1,0 +1,309 @@
+/*----- СПЕЦИФИКАЦИЯ ------*/
+*{
+    outline: 0 !important;
+}
+.fab {
+    font-family: 'fa-brands-400';
+}
+.fas {
+    font-family: 'fa-solid-900';
+}
+body, ul, li, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+}
+ul, li {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, ul, li, div, section, form, button, span, p, img, a {
+    box-sizing: border-box;
+}
+h2 {
+    color: #333333;
+    font-family: 'Open Sans Extrabold', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+input {
+    border: none;
+    outline: none;
+}
+input:hover, input:focus {
+    outline: none;
+}
+.menu-open {
+     background: none;
+     border: none;
+     color: #fff;
+     font-size: 24px;
+     margin: 30px 0 0;
+ }
+ .menu-collapse {
+     order: 5;
+     /*display: none;*/
+     /*height: 0px;*/
+     /*transition: all 5s ease;*/
+
+ }
+ /*----PRILOADER----*/
+.sk-folding-cube {
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    /*left: 50%;*/
+    transform: translate(-50%, -50%);
+
+ }
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: #000;
+}
+.sk-folding-cube {
+    width: 4em;
+    height: 4em;
+    position: relative;
+    margin: auto;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+.sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e76d61;
+    -webkit-animation: sk-folding-cube-angle 2.4s infinite linear both;
+    animation: sk-folding-cube-angle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube-2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube-3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube-4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube-2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube-3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+.sk-folding-cube .sk-cube-4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-folding-cube-angle {
+    0%, 10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%, 75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%, 100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-folding-cube-angle {
+    0%, 10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%, 75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%, 100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+/*---------------------------*/
+/*------OFFER-------*/
+.header {
+    background: url('../img/image.jpg') no-repeat center top;
+    padding-bottom: 180px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.logo {
+    font-family: 'Open Sans Extrabold', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 26px;
+}
+.menu {
+    margin-top: 38px;
+}
+.menu__item {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.menu__item a {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.menu__item a:hover {
+    color: #fbde8a;
+}
+.offer {
+    margin-top: 280px;
+    text-align: center;
+}
+.offer__title {
+    text-transform: uppercase;
+    font-family: 'Open Sans Extrabold', sans-serif;
+    font-weight: 800;
+    font-size: 150px;
+    width: 770px;
+    margin: 0 auto;
+    line-height: 0.9em;
+    margin-bottom: 125px;
+}
+.offer__button {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 9px 25px;
+    transition: all 0.5s ease;
+}
+.offer__button:hover {
+    color: #fbde8a;
+    border: 3px solid #fbde8a;
+}
+/*-----ABOUT-----*/
+.about {
+    padding-top: 135px;
+    text-align: center;
+}
+.block-title {
+    margin-bottom: 39px;
+}
+.block-line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: 0 auto 50px ;
+}
+.text-about {
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    width: 970px;
+}
+.image {
+    margin-top: 100px;
+}
+.image img {
+    width: 100%;
+}
+.services {
+    margin-top: 145px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.block-inf {
+    padding-left: 60px;
+    margin-bottom: 100px;
+}
+.block-foto {
+    background: url("../img/ALARM.png") no-repeat 10px 5px;
+}
+.block-web {
+    background: url("../img/LINE GRAPH.png") no-repeat 10px 5px;
+}
+.block-creat {
+    background: url("../img/COMPUTER.png") no-repeat 10px 5px;
+}
+.block-seo {
+    background: url("../img/BOOK.png") no-repeat 10px 5px;
+}
+.block-css {
+    background: url("../img/HOME.png") no-repeat 10px 5px;
+}
+.block-degital {
+    background: url("../img/IMAGE.png") no-repeat 10px 5px;
+}
+
+.block-inf__title {
+    color: #333333;
+    font-family: 'Open Sans Extrabold';
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: left;
+
+    margin-bottom: 20px;
+}
+.block-inf__text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 15px;
+    text-align: left;
+    /*width: 320px;*/
+}
+/*-----FOOTER----*/
+.footer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding: 130px 0;
+    background: #f8f8f8;
+}
+.copywriting {
+    color: #333333;
+
+}
+.red-text {
+    color: #f38181;
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Montserrat-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Montserrat-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Montserrat-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Montserrat-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/OpenSans.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/OpenSans.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/OpenSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/OpenSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'OpenSans-Extrabold';
+    src: url('../fonts/OpenSans-Extrabold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/OpenSans-Extrabold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/OpenSans-Extrabold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/OpenSans-Extrabold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/OpenSans-Extrabold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'fa-brands-400';
+    src: url('../fonts/fa-brands-400.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fa-brands-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fa-brands-400.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fa-brands-400.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fa-brands-400.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/fa-brands-400.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'fa-brands-400';
+    src: url('../fonts/fa-solid-900.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fa-solid-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fa-solid-900.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fa-solid-900.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fa-solid-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/fa-solid-900.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
